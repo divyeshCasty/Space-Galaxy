@@ -1,7 +1,7 @@
 import { Request, Response, Router } from 'express'
 import Container from 'typedi'
 
-import { AuthController } from '../../controllers/AuthController'
+import { AuthController } from './../../controllers/AuthController'
 import { checkJwt } from '../../middleware/checkJWT'
 import {
   validatorRegister,
